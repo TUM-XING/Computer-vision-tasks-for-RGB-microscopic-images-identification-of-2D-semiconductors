@@ -1,4 +1,6 @@
 # Computer-vision-tasks-for-identification-of-2D-semiconductors
+
+## Multi-label classification, segmentation, and detection
 Three deep-learning architectures DenseNet, U-Net, and Mask-RCNN on three computer vision tasks(multi-label classification, segmentation, and detection) were applied for the identification of two-dimensional(2D) semiconductors using the augmented microscopic images with different optical contrast variations which is the key information for atomic layer identification. Three deep learning models were trained and evaluated to identify mono-, bi-, tri-, multi-layer and bulk flakes using microscopic images of MoS2 fabricated on the SiO2/Si substrate by chemical vapor deposition (CVD). 
 
 ![image](https://github.com/TUM-XING/Computer-vision-tasks-for-identification-of-2D-semiconductors-/blob/main/Fig1.png)
@@ -10,7 +12,9 @@ The original deep learning architectures of DenseNet, U-Net, and Mask-RCNN were 
 
 The codes can be modified based on the origianal codes or requested from Xingchen Dong (xingchen.dong@tum.de).
 
+## GUI development
 The pretrained U-Net models was integrated into a graphic user interface(GUI) for on-site use of processing full field-of-view images captured by the bright-field microscope by Yuntian Yan (yuntian.yan@tum.de) under the supervision of Mr. Xingchen Dong. 
 
-![image](https://github.com/TUM-XING/Computer-vision-tasks-for-identification-of-2D-semiconductors-/blob/main/Fig2.jpg)
+The packaging using the pretrained models(**.h5) should follow the instructions in 
 
+![image](https://github.com/TUM-XING/Computer-vision-tasks-for-identification-of-2D-semiconductors-/blob/main/Fig2.jpg)
