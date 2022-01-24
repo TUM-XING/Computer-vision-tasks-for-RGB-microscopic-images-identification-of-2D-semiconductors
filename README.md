@@ -8,6 +8,9 @@ The original deep learning architectures of DenseNet, U-Net, and Mask-RCNN were 
 2. Ronneberger, O.; Fischer, P.; Brox, T. U-Net: Convolutional Networks for Biomedical Image Segmentation. In International Conference on Medical Image Computing and Computer-Assisted Intervention, Munich, Germany, Oct 5-9, 2015; Springer: 2015; pp 234–241.
 3. He, K.; Gkioxari, G.; Dollár, P.; Girshick, R. Mask R-CNN. In Proceedings of the IEEE International Conference on Computer Vision. Venice, Italy, October 22-29, 2017; IEEE: 2017; pp 2961-2969.
 
-The codes can be modified based on the origianal codes or requested from Xingchen Dong(xingchen.dong@tum.de).
+The codes can be modified based on the origianal codes or requested from Xingchen Dong (xingchen.dong@tum.de).
 
+The pretrained U-Net models was integrated into a graphic user interface(GUI) for on-site use of processing full field-of-view images captured by the bright-field microscope by Yuntian Yan (yuntian.yan@tum.de) under the supervision of Mr. Xingchen Dong. 
+
+![image](https://github.com/TUM-XING/Computer-vision-tasks-for-identification-of-2D-semiconductors-/blob/main/Fig2.jpg)
 
