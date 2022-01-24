@@ -1,0 +1,1 @@
+pyinstaller -F -c main.py --hidden-import="skimage.filters.rank.core_cy_3d" --hidden-import="tensorflow. python.keras.engine.base_layer_v1"

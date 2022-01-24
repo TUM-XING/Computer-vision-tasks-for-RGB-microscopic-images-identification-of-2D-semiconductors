@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSamples">
+    <property name="title">
+     <string>Samples</string>
+    </property>
+    <addaction name="actionMoS2"/>
+    <addaction name="actionWS2"/>
+    <addaction name="actionWSe2"/>
+   </widget>
+   <widget class="QMenu" name="menuSubstrates">
+    <property name="title">
+     <string>Substrates</string>
+    </property>
+    <widget class="QMenu" name="menuSiO2_Si">
+     <property name="title">
+      <string>SiO2/Si</string>
+     </property>
+     <addaction name="separator"/>
+     <addaction name="actionThinknoss"/>
+     <addaction name="separator"/>
+     <addaction name="action70nm"/>
+     <addaction name="action270nm"/>
+    </widget>
+    <addaction name="menuSiO2_Si"/>
+    <addaction name="actionSapphire"/>
+   </widget>
+   <widget class="QMenu" name="menuObjective">
+    <property name="title">
+     <string>Objective</string>
+    </property>
+    <addaction name="action10_X"/>
+    <addaction name="action20"/>
+    <addaction name="action50"/>
+    <addaction name="action100"/>
+   </widget>
+   <addaction name="menuSamples"/>
+   <addaction name="menuSubstrates"/>
+   <addaction name="menuObjective"/>
+  </widget>
+  <action name="actionMoS2">
+   <property name="text">
+    <string>MoS2</string>
+   </property>
+  </action>
+  <action name="actionWS2">
+   <property name="text">
+    <string>WS2</string>
+   </property>
+  </action>
+  <action name="actionWSe2">
+   <property name="text">
+    <string>WSe2</string>
+   </property>
+  </action>
+  <action name="actionSapphire">
+   <property name="text">
+    <string>Sapphire</string>
+   </property>
+  </action>
+  <action name="actionThinknoss">
+   <property name="text">
+    <string>Thinkniss</string>
+   </property>
+  </action>
+  <action name="action70nm">
+   <property name="text">
+    <string>70nm</string>
+   </property>
+  </action>
+  <action name="action270nm">
+   <property name="text">
+    <string>270nm</string>
+   </property>
+  </action>
+  <action name="action10_X">
+   <property name="text">
+    <string>10 ×</string>
+   </property>
+  </action>
+  <action name="action20">
+   <property name="text">
+    <string>20 ×</string>
+   </property>
+  </action>
+  <action name="action50">
+   <property name="text">
+    <string>50 ×</string>
+   </property>
+  </action>
+  <action name="action100">
+   <property name="text">
+    <string>100 ×</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
