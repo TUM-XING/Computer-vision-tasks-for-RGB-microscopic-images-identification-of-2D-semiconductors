@@ -20,6 +20,6 @@ The pretrained U-Net models was integrated into a graphic user interface(GUI) fo
 The packaging using the pretrained models(**.h5) should follow the instructions in the file Readme_packaging.txt
 
 <div align=center>
-<img src="https://github.com/TUM-XING/Computer-vision-tasks-for-identification-of-2D-semiconductors-/blob/main/Fig2.png" width="800">
+<img src="https://github.com/TUM-XING/Computer-vision-tasks-for-identification-of-2D-semiconductors-/blob/main/Fig2.jpg" width="800">
 </div>
 
