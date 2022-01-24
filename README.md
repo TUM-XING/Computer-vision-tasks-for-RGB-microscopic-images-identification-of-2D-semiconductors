@@ -15,6 +15,6 @@ The codes can be modified based on the origianal codes or requested from Xingche
 ## GUI development
 The pretrained U-Net models was integrated into a graphic user interface(GUI) for on-site use of processing full field-of-view images captured by the bright-field microscope by Yuntian Yan (yuntian.yan@tum.de) under the supervision of Mr. Xingchen Dong. 
 
-The packaging using the pretrained models(**.h5) should follow the instructions in 
+The packaging using the pretrained models(**.h5) should follow the instructions in the file Readme_packaging.txt
 
 ![image](https://github.com/TUM-XING/Computer-vision-tasks-for-identification-of-2D-semiconductors-/blob/main/Fig2.jpg)
